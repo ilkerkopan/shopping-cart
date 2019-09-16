@@ -1,0 +1,11 @@
+server:
+  port: ${PORT:8080}
+
+ecommerce:
+  costs:
+    costPerDelivery: ${COST_PER_DELIVERY:1.2}
+    costPerProduct: ${COST_PER_PRODUCT:0.5}
+    fixedCost: ${FIXED_COST:2.99}
+
+logging:
+  config: classpath:log-config/logback.xml
